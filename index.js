@@ -137,8 +137,6 @@ var keyToClass = {
     "-": "sub",
     "=": "equal",
     "Backspace": "back-space",  
-    "PageUp" : "pu",
-    
 };
 
 function buttonAnimation (pressKey) {
