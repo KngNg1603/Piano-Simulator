@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    background-color: #283149;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+}
+
+.piano-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.key-set {
+    margin-bottom: 10%;
+    padding: 70px 50px 0 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(25, 25, 25);
+}
+
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    transform: translateY(4px);
+}
+
+.red {
+    color: red;
+}
+
+.piano {
+    outline: none;
+    border: 1px solid #404B69;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 1px 0 #DBEDF3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 50px;
+    height: 200px;
+    text-align: center;
+    background-color: white;
+}
+
+.sub-key {
+    outline: none;
+    border: 1px solid #404B69;
+    font-size: 1rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 25px;
+    height: 140px;
+    text-align: center;
+    background-color: black;
+    z-index: 1;
+}
+
+.key-box {
+    display: flex;
+    position: relative;
+}
+
+.one, .four, .eight, .sub{
+    position: absolute;
+    top: 0px;
+    left: 37px;
+}
+
+.two, .five , .nine, .equal{
+    position: absolute;
+    top: 0px;
+    left: 87px;
+}
+
+.six, .back-space {
+    position: absolute;
+    top: 0px;
+    left: 137px;
+}
